@@ -54,8 +54,8 @@ const questions = [
         answer: "ha",
     },
     {
-        question: "Will your parents good with this , as we were always known to be as friends among over parents ",
-        options: ["ha", "nahi"],
+        question: "are your parents good with this , as we were always known to be as friends among over parents ",
+        options: ["ha", "nahi","possibly","dont know"],
         answer: "ha",
     },
 ];
