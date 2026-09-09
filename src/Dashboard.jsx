@@ -576,12 +576,11 @@ function Dashboard() {
                             </p>
 
                             <h1 className="mt-2 text-3xl font-semibold tracking-tight text-[#1d1d1f] sm:text-4xl">
-                                I want your feedback
+                                feedback dedo doc madam.
                             </h1>
 
                             <p className="mx-auto mt-4 max-w-md text-sm leading-6 text-gray-500 sm:text-base">
-                                Now that you've answered everything,
-                                Kuch to batado , bahut mahenet se ye banaya mene ye
+                                Kuch to batado , bahut mahenet se ye banaya mene ye.
                             </p>
 
                         </div>
