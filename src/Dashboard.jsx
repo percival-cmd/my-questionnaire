@@ -53,6 +53,11 @@ const questions = [
         options: ["ha", "nahi"],
         answer: "ha",
     },
+    {
+        question: "Will your parents good with this , as we were always known to be as friends among over parents ",
+        options: ["ha", "nahi"],
+        answer: "ha",
+    },
 ];
 
 const TOUGH_QUESTION_INDEX = 3;
