@@ -59,7 +59,7 @@ const FRIENDSHIP_QUESTION_INDEX = 4;
 
 const GOOGLE_SCRIPT_URL =
     import.meta.env.VITE_GOOGLE_SCRIPT_URL;
-
+const GIF_URL = "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTJtMWNyOXdwMXN6OHU3ZXdoYmpuN3k5Znh6a2hicTRrZW1yczNmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gXXFrjHFJIMoqKr8UT/giphy.gif"
 function Dashboard() {
     const [started, setStarted] = useState(false);
     const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -70,6 +70,8 @@ function Dashboard() {
     const [showRain, setShowRain] = useState(false);
     const [isProcessing, setIsProcessing] = useState(false);
     const [showFeedback, setShowFeedback] = useState(false);
+    const [showGif, setShowGif] = useState(false);
+
 
     const question = questions[currentQuestion];
 
@@ -398,11 +400,18 @@ function Dashboard() {
                 finalResponse
             );
 
-            // Close feedback screen
+            // Hide feedback screen
             setShowFeedback(false);
 
-            // Show separate thank-you screen
-            setCompleted(true);
+            // Show GIF
+            setShowGif(true);
+
+            // After 4 seconds, show final thank-you screen
+            window.setTimeout(() => {
+                setShowGif(false);
+                setCompleted(true);
+            }, 4000);
+
         } catch (error) {
             console.error(
                 "Failed to submit feedback:",
@@ -412,7 +421,7 @@ function Dashboard() {
             alert(
                 "Unable to submit your response. Please try again."
             );
-        } finally {
+
             setIsProcessing(false);
         }
     };
@@ -471,7 +480,7 @@ function Dashboard() {
                         </p>
 
                         <h1 className="mt-2 text-3xl font-semibold tracking-tight text-[#1d1d1f] sm:text-4xl">
-                            Sawal for Shakshi
+                            Sawal (questions)  for Shakshi
                         </h1>
 
                         <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-gray-500 sm:text-base">
@@ -638,6 +647,36 @@ function Dashboard() {
     }
 
     // ==================================================
+// SCREEN 4 - GIF
+// ==================================================
+
+    if (showGif) {
+        return (
+            <main className="min-h-[100svh] bg-[#fff5f7] px-4 py-8 sm:py-10">
+
+                <div className="mx-auto flex min-h-[calc(100svh-4rem)] max-w-2xl items-center justify-center">
+
+                    <section className="w-full rounded-3xl border border-[#f3dce1] bg-white p-7 text-center shadow-sm sm:p-12">
+
+                        <div className="flex justify-center">
+
+                            <img
+                                src={GIF_URL}
+                                alt="Thank you"
+                                className="max-h-[450px] w-auto max-w-full rounded-2xl object-contain"
+                            />
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </main>
+        );
+    }
+
+    // ==================================================
     // SCREEN 4 - FINAL THANK YOU
     // ==================================================
 
@@ -737,7 +776,7 @@ function Dashboard() {
                     </p>
 
                     <h1 className="mt-2 text-2xl font-semibold tracking-tight text-[#1d1d1f] sm:text-3xl">
-                        Test your knowledge
+                        Question
                     </h1>
 
                     <p className="mt-2 text-sm text-gray-500">
