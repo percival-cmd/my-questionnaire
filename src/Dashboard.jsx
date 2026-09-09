@@ -28,7 +28,8 @@ const questions = [
         answer: "yes and yes",
     },
     {
-        question: "Tough Question: Are you taken / having a boyfriend",
+        question: "Tough Question: Wanted to ask you this many times earlier but i couldnt able to" +
+            "Are you in relationship or having a boyfriend",
         options: ["no", "yes"],
         answer: "no",
     },
@@ -534,6 +535,9 @@ function Dashboard() {
                             </p>
                         </div>
 
+                        <p className="mt-6 text-sm text-gray-400">
+                            you can retry this if you want n amount of times . check the website
+                        </p>
                         <p className="mt-6 text-sm text-gray-400">
                             No more questions. Promise. 😄
                         </p>
