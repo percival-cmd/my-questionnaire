@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family:
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif;
+
+    background: #fff5f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+button,
+textarea {
+    font: inherit;
+}
+
+.rain-drop {
+    position: absolute;
+    top: -30px;
+    width: 2px;
+    height: 24px;
+    border-radius: 999px;
+    background: #9b91a0;
+    opacity: 0.55;
+
+    animation-name: rain-fall;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes rain-fall {
+    from {
+        transform: translateY(-30px);
+    }
+
+    to {
+        transform: translateY(110vh);
+    }
+}
