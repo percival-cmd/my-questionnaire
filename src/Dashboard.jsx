@@ -28,7 +28,7 @@ const questions = [
         answer: "yes and yes",
     },
     {
-        question: "Tough Question: Are you taken / have a boyfriend",
+        question: "Tough Question: Are you taken / having a boyfriend",
         options: ["no", "yes"],
         answer: "no",
     },
@@ -43,7 +43,7 @@ const questions = [
         answer: "hmm possibly",
     },
     {
-        question: "Did i rush on things",
+        question: "Did i rush on this , kyuki mereko idea nahi hey konse time me puchu isse",
         options: ["nahi", "ha"],
         answer: "nahi",
     },
