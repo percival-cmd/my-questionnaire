@@ -8,5 +8,5 @@ export default defineConfig({
         tailwindcss(),
     ],
 
-    base: "/questionnaire/",
+    base: "/my-questionnaire/",
 });
