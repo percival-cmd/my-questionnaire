@@ -29,7 +29,7 @@ const questions = [
     },
     {
         question: "Tough Question: Are you taken / have a boyfriend",
-        options: ["yes", "no"],
+        options: ["no", "yes"],
         answer: "no",
     },
     {
@@ -471,37 +471,12 @@ function Dashboard() {
                         </p>
 
                         <h1 className="mt-2 text-3xl font-semibold tracking-tight text-[#1d1d1f] sm:text-4xl">
-                            Questions for Shakshi
+                            Sawal for Shakshi
                         </h1>
 
                         <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-gray-500 sm:text-base">
-                            Answer a series of multiple-choice questions,
-                            kyuki meri gaand phati hey kise puchhu tujse
+                            kyuki meri gaand phati hey kise puchhu tujse 😅
                         </p>
-
-                        <div className="mx-auto mt-8 grid max-w-lg grid-cols-2 gap-3">
-
-                            <div className="rounded-2xl bg-[#fff9fa] p-4">
-                                <p className="text-2xl font-semibold text-[#d95f72]">
-                                    {questions.length}
-                                </p>
-
-                                <p className="mt-1 text-xs text-gray-500">
-                                    Questions
-                                </p>
-                            </div>
-
-                            <div className="rounded-2xl bg-[#fff9fa] p-4">
-                                <p className="text-2xl font-semibold text-[#d95f72]">
-                                    4
-                                </p>
-
-                                <p className="mt-1 text-xs text-gray-500">
-                                    Options
-                                </p>
-                            </div>
-
-                        </div>
 
                         <button
                             type="button"
@@ -592,7 +567,7 @@ function Dashboard() {
 
                             <p className="mx-auto mt-4 max-w-md text-sm leading-6 text-gray-500 sm:text-base">
                                 Now that you've answered everything,
-                                tell me honestly what you think.
+                                Kuch to batado , bahut mahenet se ye banaya mene ye
                             </p>
 
                         </div>
