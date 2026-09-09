@@ -697,7 +697,7 @@ function Dashboard() {
                         </h1>
 
                         <p className="mx-auto mt-5 max-w-md text-base leading-7 text-gray-500">
-                            I really appreciate you taking the time on this.
+                            connect with me whenever possible . 👍
                         </p>
 
                         <p className="mt-6 text-sm text-gray-400">
