@@ -495,10 +495,6 @@ function Dashboard() {
                             Start Questionnaire →
                         </button>
 
-                        <p className="mt-4 text-xs text-gray-400">
-                            Good luck! 🍀
-                        </p>
-
                     </section>
                 </div>
             </main>
