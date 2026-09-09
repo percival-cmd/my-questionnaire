@@ -28,13 +28,13 @@ const questions = [
         answer: "yes and yes",
     },
     {
-        question: "Tough Question: Wanted to ask you this many times earlier but i couldnt able to" +
-            "Are you in relationship or having a boyfriend",
+        question: "Tough Question: Wanted to ask you this many times earlier but i wasnt able to" +
+            "Are you in a relationship or having a boyfriend currently",
         options: ["no", "yes"],
         answer: "no",
     },
     {
-        question: "Would you consider me like am i good for you on this",
+        question: "Would you consider me , like am i good for you on this",
         options: [
             "hmm possibly",
             "chal hat",
@@ -44,7 +44,7 @@ const questions = [
         answer: "hmm possibly",
     },
     {
-        question: "Did i rush on this , kyuki mereko idea nahi hey kise time me puchu isse so thought to ask out of the blue",
+        question: "Did i rush on this , kyuki mereko idea nahi hey kise time me puchu isse so thought to clarify",
         options: ["nahi", "ha"],
         answer: "nahi",
     },
@@ -526,7 +526,7 @@ function Dashboard() {
                         </h1>
 
                         <p className="mx-auto mt-5 max-w-md text-base leading-7 text-gray-500">
-                            I appreciate your honesty.
+                            I appreciate your honesty and sorry if i had hurt your understanding.
                         </p>
 
                         <div className="mx-auto mt-6 max-w-md rounded-2xl bg-[#fff5f7] p-6">
@@ -536,7 +536,7 @@ function Dashboard() {
                         </div>
 
                         <p className="mt-6 text-sm text-gray-400">
-                            you can retry this if you want n amount of times . check the website
+                            I always wanted to clarify this and now i am good with this.
                         </p>
                         <p className="mt-6 text-sm text-gray-400">
                             No more questions. Promise. 😄
