@@ -43,13 +43,13 @@ const questions = [
         answer: "hmm possibly",
     },
     {
-        question: "Did i rush on this , kyuki mereko idea nahi hey konse time me puchu isse",
+        question: "Did i rush on this , kyuki mereko idea nahi hey kise time me puchu isse so thought to ask out of the blue",
         options: ["nahi", "ha"],
         answer: "nahi",
     },
     {
         question: "Can i ask you out if you are ok",
-        options: ["nahi", "ha"],
+        options: ["ha", "nahi"],
         answer: "ha",
     },
 ];
@@ -480,7 +480,7 @@ function Dashboard() {
                         </p>
 
                         <h1 className="mt-2 text-3xl font-semibold tracking-tight text-[#1d1d1f] sm:text-4xl">
-                            Sawal (questions)  for Shakshi
+                            KBC Sawal (questions)  for Shakshi
                         </h1>
 
                         <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-gray-500 sm:text-base">
@@ -701,18 +701,11 @@ function Dashboard() {
                         </h1>
 
                         <p className="mx-auto mt-5 max-w-md text-base leading-7 text-gray-500">
-                            I really appreciate you taking the time
-                            to answer everything honestly.
+                            I really appreciate you taking the time on this.
                         </p>
 
-                        <div className="mx-auto mt-7 max-w-md rounded-2xl bg-[#fff5f7] p-6">
-                            <p className="text-lg font-medium leading-7 text-[#9e4554]">
-                                That's all from my side. 😊
-                            </p>
-                        </div>
-
                         <p className="mt-6 text-sm text-gray-400">
-                            Have a good day! 🌸
+                            Have a great day! 🌸
                         </p>
 
                     </section>
