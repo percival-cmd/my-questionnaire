@@ -33,7 +33,7 @@ const questions = [
         answer: "no",
     },
     {
-        question: "Would you consider me as an option",
+        question: "Would you consider me like am i good for you on this",
         options: [
             "hmm possibly",
             "chal hat",
