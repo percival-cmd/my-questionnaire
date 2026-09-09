@@ -697,7 +697,7 @@ function Dashboard() {
                         </h1>
 
                         <p className="mx-auto mt-5 max-w-md text-base leading-7 text-gray-500">
-                            connect with me whenever possible . 👍
+                            connect with me whenever possible i would like to talk about this more in person or over the call . 👍
                         </p>
 
                         <p className="mt-6 text-sm text-gray-400">
